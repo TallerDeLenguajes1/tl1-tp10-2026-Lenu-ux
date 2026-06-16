@@ -12,8 +12,8 @@ public class Tarea
     public int UserId { get => userId; set => userId = value; }
     [JsonPropertyName("id")]
     public int Id { get => id; set => id = value; }
-    [JsonPropertyName("titulo")]
+    [JsonPropertyName("title")]
     public string? Titulo { get => titulo; set => titulo = value; }
-    [JsonPropertyName("estado")]
+    [JsonPropertyName("completed")]
     public bool Estado { get => estado; set => estado = value; }
 }
