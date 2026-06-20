@@ -38,7 +38,7 @@ public class Usuario
     public int id {get; set; }
     [JsonPropertyName("name")]
     public string name {get; set; }
-    [JsonPropertyName("usename")]
+    [JsonPropertyName("username")]
     public string username{get; set; }
     [JsonPropertyName("email")]
     public string email{get; set; }
