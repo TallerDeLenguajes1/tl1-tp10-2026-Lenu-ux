@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
 namespace EspacioWeb;
 // Root myDeserializedClass = JsonSerializer.Deserialize<List<Root>>(myJsonResponse);
-    public class Root
+    public class Web
     {
         [JsonPropertyName("web_pages")]
         public List<string> web_pages { get; set; }
