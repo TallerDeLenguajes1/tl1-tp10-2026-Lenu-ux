@@ -1,5 +1,5 @@
 using System.Text.Json;
-using espacioUsuario;
+using EspacioUsuario;
 
 public static class UsuarioServices
 {
@@ -17,7 +17,7 @@ public static class UsuarioServices
         return listaUsuario;
 
     }
-    
+
     //serialisar
 public static void generarArchivo(List<Usuario> usuarios)
 {
