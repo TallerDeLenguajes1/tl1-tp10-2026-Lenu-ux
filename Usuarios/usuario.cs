@@ -1,5 +1,4 @@
 using System.Text.Json.Serialization;
-
 namespace EspacioUsuario;
 public class Direccion
 {
@@ -55,5 +54,5 @@ public class usuario
 
     [JsonPropertyName("company")]
     public Company compania {get; set; }
-    
+
 }
