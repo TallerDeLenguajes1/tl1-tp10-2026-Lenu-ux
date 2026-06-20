@@ -32,7 +32,7 @@ public class Geo
     public string lng{get; set; }
 }
 
-public class usuario
+public class Usuario
 {
     [JsonPropertyName("id")]
     public int id {get; set; }
